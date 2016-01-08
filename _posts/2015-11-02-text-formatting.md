@@ -2,7 +2,6 @@
 layout: post
 title: "Text formatting"
 date: 2015-11-02 16:25:06
-tags: jekyll
 description: Text formatting examples.
 toc: true
 ---
@@ -39,17 +38,17 @@ You also can combine them: `**asterisks and _underscores_**` -> **asterisks and 
 Using very cool [feature](http://kramdown.gettalong.org/quickref.html#block-attributes) of kramdown which allows to assign any attribute to a block-level element I've added note a warning:
 
 {% highlight bash %}
->Note 
+>Note
 {: .note}
 {% endhighlight bash %}
 
->Note 
+>Note
 {: .note}
 
 {% highlight bash %}
->Warning 
+>Warning
 {: .note .warning}
 {% endhighlight bash %}
 
->Warning 
+>Warning
 {: .note .warning}

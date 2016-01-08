@@ -2,13 +2,12 @@
 layout: post
 title: "Jekyll Dark Clean Theme"
 date: 2015-12-01 16:25:06
-tags: jekyll
 description: Here I want to introduce you the dark theme for Jekyll. It was forked from Scotte's jekyll-clean theme and customized.
 toc: true
 ---
 
 
-Here is a sample post for Jekyll-Clean-Dark theme. 
+Here is a sample post for Jekyll-Clean-Dark theme.
 
 * Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
 * See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
