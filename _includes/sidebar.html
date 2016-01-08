@@ -6,3 +6,12 @@
     {% endfor %}
   </ul>
 </div>
+
+<div class="sidebar">
+  <h2>Tags</h2>
+  <ul>
+    {% for category in site.categories %}
+    <li>{{ category | first }} 文章数量:{{ category | last | size }}</li>
+    {% endfor %}
+  </ul>
+</div>
