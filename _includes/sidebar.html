@@ -1,5 +1,5 @@
 <div class="sidebar ">
-  <h2>Recent Posts</h2>
+  <h2>最新发布</h2>
   <ul>
     {% for post in site.posts limit:5 %}
     <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
@@ -8,10 +8,10 @@
 </div>
 
 <div class="sidebar">
-  <h2>Tags</h2>
+  <h2>分类</h2>
   <ul>
     {% for category in site.categories %}
-    <li>{{ category | first }} 文章数量:{{ category | last | size }}</li>
+    <li>{{ category | first }} ({{ category | last | size }})</li>
     {% endfor %}
   </ul>
 </div>
